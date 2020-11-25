@@ -1,10 +1,11 @@
 import React from "react";
+// import "../styles/aboutme.css"
 
 function AboutMe() {
     return(
         <>
-        <p>Oh, hello,</p>
-        <p>Nice to meet you.</p>
+        <h1>Oh, hello,</h1>
+        <h1>Nice to meet you.</h1>
         </>
     )
 }

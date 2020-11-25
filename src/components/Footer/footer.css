@@ -1,14 +1,28 @@
 /* styling for footer */
 
-/* footer {
+footer {
     text-align: center;
     font-family: 'IM Fell English', serif;
     font-weight: bold;
     font-size: 20px;
-} */
+    bottom:0;
+}
 
+body {
+    height: 100%;
+}
 
-.footer {
+#container {
+    min-height: 100%;
+
+}
+
+#main {
+    overflow:auto;
+    padding-bottom: 500px;
+}
+
+/* .footer {
     font-weight: bold;
     font-size: 20px;
     text-align: center;
@@ -16,6 +30,7 @@
     min-height: 100px;
     background: #E5E5E5;
     position: relative;
+    margin-bottom: 500px;
 }
   
 .footer span {
@@ -25,5 +40,5 @@
     right: 0;
     padding: 3px;
     background: #B8B8B8;
-}
-  
+} 
+   */
