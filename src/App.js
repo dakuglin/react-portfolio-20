@@ -9,6 +9,7 @@ import Contact from "./pages/Contact";
 import Resume from "./pages/Resume"
 import Footer from "./components/Footer/Footer";
 
+
 function App() {
   return (
     <Router>

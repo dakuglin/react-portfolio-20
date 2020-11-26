@@ -5,18 +5,19 @@
     font-family: 'IM Fell English', serif;
 }
 
-.nav-item {
-    font-size: 30px;
-    padding: 13px; 
-    color:red;
-}
-.nav-link {
-    color:green;
+#right-align.navbar-nav{
+    padding-right: 330px;
 }
 
 h1 {
-    font-size:50px;
-    padding-right: 540px; 
+    font-size: 50px;
+    padding-right: 350px;
 }
+
+.nav-item {
+    font-size: 30px;
+    padding: 8px;
+}
+
 
 
