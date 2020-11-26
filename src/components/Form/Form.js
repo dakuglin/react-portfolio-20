@@ -1,4 +1,5 @@
 import React from "react";
+import "./form.css";
 
 
 function Form() {
@@ -9,9 +10,11 @@ function Form() {
                 <div className="form-group form-group-lg">
                     <input type="text" className="form-control" placeholder="Name"/>
                 </div>
+                <br></br>
                 <div className="form-group form-group-lg">
                     <input type="email" className="form-control" aria-describedby="emailHelp" placeholder="Email"/>
                 </div>
+                <br></br>
                 <div className="form-group form-group-lg">
                     <input type="text" className="form-control" placeholder="Message"/>
                 </div>
