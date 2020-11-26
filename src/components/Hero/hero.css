@@ -8,13 +8,13 @@
   .hero::after {
     content: "";
     display: block;
-    opacity: .4;
+    opacity: .3;
     position: absolute;
     top: 0;
     bottom: 0;
     left: 0;
     right: 0;
-    background: black;
+    background: gray;
   }
   
   .hero * {
@@ -22,13 +22,13 @@
     z-index: 2;
   }
   
-  .hero h1, .hero h2 {
-    color: white;
-  }
-  
   .hero h1 {
-    font-size: 60px;
-    padding-top: 140px;
+    color: whitesmoke;
+    font-family: 'IM Fell English', serif;
+    font-size: 70px;
+    padding-top: 100px;
+    padding-right:600px;
     margin-top: 0;
   }
+  
   

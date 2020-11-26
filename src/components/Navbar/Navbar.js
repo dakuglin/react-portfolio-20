@@ -17,7 +17,7 @@ function Navbar() {
                     : "nav-link"
                 }
               >
-                about me
+                <span>about me</span>
               </Link>
             </li> 
             <li className="nav-item">
@@ -25,7 +25,7 @@ function Navbar() {
                 to="/portfolio"
                 className={window.location.pathname === "/portfolio" ? "nav-link active" : "nav-link"}
               >
-                portfolio
+                <span>portfolio</span>
               </Link>
             </li>
             <li className="nav-item">
@@ -33,7 +33,7 @@ function Navbar() {
                 to="/contact"
                 className={window.location.pathname === "/contact" ? "nav-link active" : "nav-link"}  
               >
-                contact
+                <span>contact</span>
               </Link>
             </li>
         </ul>
@@ -41,23 +41,23 @@ function Navbar() {
 
       <ul className="navbar-nav">
       <Link className="navbar-brand" to="/">  
-         <h1>Dana Weijers</h1>
+         <h2>Dana Weijers</h2>
       </Link> 
         </ul>
 
         <ul className="navbar-nav">
           <li className="nav-item active">
-            <a className="nav-link" href="https://www.linkedin.com/in/danakuglin" target="_blank">linkedin</a>
+            <a className="nav-link" href="https://www.linkedin.com/in/danakuglin" target="_blank"><span>linkedin</span></a>
           </li>
           <li className="nav-item active">
-            <a className="nav-link" href="https://github.com/dakuglin" target="_blank">github</a>
+            <a className="nav-link" href="https://github.com/dakuglin" target="_blank"><span>github</span></a>
           </li>
           <li className="nav-item">
           <Link
           to="/resume"
           className={window.location.pathname === "/resume" ? "nav-link active" : "nav-link"}
           >
-          resume
+          <span>resume</span>
           </Link>
           </li>
         </ul>

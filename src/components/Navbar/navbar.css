@@ -1,23 +1,32 @@
 /* styling for navbar */
 
 .navbar {
-    height: 140px;
+    height: 100px;
     font-family: 'IM Fell English', serif;
 }
 
 #right-align.navbar-nav{
-    padding-right: 330px;
+    padding-right: 340px;
 }
 
-h1 {
+h2 {
     font-size: 50px;
     padding-right: 350px;
+    color: #C38D9E;
+    font-weight:bold;
 }
 
 .nav-item {
     font-size: 30px;
     padding: 8px;
 }
+
+span {
+    color: #C38D9E;
+}
+
+
+
 
 
 
