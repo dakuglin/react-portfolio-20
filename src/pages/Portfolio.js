@@ -1,8 +1,10 @@
 import React from "react";
+import Background from "../components/Background/Background";
 
 function Portfolio() {
     return(
         <>
+        <Background backgroundImage="https://images.unsplash.com/photo-1507646871303-331b8f659227?ixlib=rb-1.2.1&auto=format&fit=crop&w=1525&q=80.jpg">
         <div className="container-fluid">
             <div class="card">
                 <div class="card-header">
@@ -45,6 +47,7 @@ function Portfolio() {
                 </div>
             </div>
       </div>
+      </Background>
       </>
       
         

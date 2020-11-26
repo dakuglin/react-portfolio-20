@@ -1,0 +1,34 @@
+.background {
+    height: 900px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+  }
+  
+  .background::after {
+    content: "";
+    display: block;
+    opacity: .9;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: whitesmoke;
+  }
+  
+  .background * {
+    position: relative;
+    z-index: 2;
+  }
+  
+  .background h3 {
+    font-family: 'IM Fell English', serif;
+    font-size: 50px;
+    text-align: center;
+    padding-top: 150px;
+    color: "#5D5C61";
+    padding-bottom: 100px;
+  }
+  
+  
