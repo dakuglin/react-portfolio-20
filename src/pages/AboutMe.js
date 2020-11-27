@@ -12,6 +12,7 @@ const style = {
     },
     span: {
         fontStyle: "italic",
+        color: "#E27D60",
     },
 }
 
