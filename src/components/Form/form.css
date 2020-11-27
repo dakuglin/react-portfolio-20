@@ -3,7 +3,7 @@
     padding-top:25px;
 }
 
-.btn.btn-primary {
+.btn.btn-primary.form {
     background-color: #64485C;
     font-family: 'Open Sans Condensed, sans-serif';  
     border: none;

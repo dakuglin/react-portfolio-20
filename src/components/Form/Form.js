@@ -26,7 +26,7 @@ function Form() {
                     <br></br>
                     <br></br>
                     <br></br>
-                    <button type="submit" className="btn btn-primary">Send</button>
+                    <button type="submit" className="btn btn-primary form">Send</button>
                 </form>
             </div>
         </div>
