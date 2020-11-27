@@ -1,10 +1,11 @@
 
 .container-fluid {
-    padding-top:25px;
+    padding-top:105px;
 }
 
 .btn.btn-primary.form {
-    background-color: #64485C;
+    background-color: #41B3A3;
+    /* background-color: #64485C; */
     font-family: 'Open Sans Condensed, sans-serif';  
     border: none;
     color: whitesmoke;
@@ -21,4 +22,5 @@
 
 ::placeholder {
     font-family: 'Open Sans Condensed, sans-serif';  
+   
 }

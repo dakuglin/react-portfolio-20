@@ -3,6 +3,7 @@ img {
     width: 750px;
     height: 950px;
     margin-top: 20px;
+    box-shadow: 0 3px 6px #999, 0 3px 6px #999;
 }
 
 .animate__heartBeat {

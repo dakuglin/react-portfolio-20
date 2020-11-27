@@ -21,9 +21,9 @@ const style = {
     },
     span1: {
         fontStyle: "italic",
-        color: "#C38D9E",  
+        color: "#E27D60",  
         fontFamily: 'Open Sans Condensed, sans-serif',
-        fontSize: "40px",
+        fontSize: "45px",
         fontWeight: "bold",
         paddingBottom: "20px",
     },
