@@ -5,7 +5,7 @@ import "./form.css";
 function Form() {
     return (
     <div className="container-fluid">
-            <div className="col-lg-6">
+            <div className="col-lg-12">
             <form>
                 <div className="form-group form-group-lg">
                     <input type="text" className="form-control" placeholder="Name"/>

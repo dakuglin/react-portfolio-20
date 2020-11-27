@@ -4,8 +4,9 @@ import Form from "../components/Form/Form";
 import Container from "../components/Container/Container";
 import Row from "../components/Row/Row";
 import Col from "../components/Col/Col";
-// import me from "../picture.png";
-import Picture from "../components/Picture/Picture"
+import Picture from "../components/Picture/Picture";
+
+
 function Contact() {
     return (
         <>
@@ -14,11 +15,11 @@ function Contact() {
             <h3 >Please contact me about any web development needs.</h3>
             <Container>
                 <Row>
-                    <Col size="sm-6">
+                    <Col size="md-6">
                         <Form />
 
                     </Col>
-                    <Col size="sm-6">
+                    <Col size="md-6">
                         <Picture />
                     </Col>
                   </Row>  

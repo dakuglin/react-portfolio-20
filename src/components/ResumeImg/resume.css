@@ -1,0 +1,11 @@
+
+img {
+    width: 750px;
+    height: 950px;
+    margin-top: 20px;
+}
+
+.animate__heartBeat {
+    --animate-duration: 3s;
+}
+  

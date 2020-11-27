@@ -1,11 +1,12 @@
 import React from "react";
+import me from "./picture.png";
 import "./picture.css";
-import me from "./picture.png"
+
 
 function Picture() {
     return (
         <div>
-            <img src={me} alt="Dana Weijers" />
+            <img id="me" src={me} alt="Dana Weijers" />
         </div>
     )
 }

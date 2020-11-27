@@ -8,7 +8,7 @@
   .background::after {
     content: "";
     display: block;
-    opacity: .9;
+    opacity: .8;
     position: absolute;
     top: 0;
     bottom: 0;
