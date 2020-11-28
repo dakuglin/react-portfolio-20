@@ -6,7 +6,7 @@ import "./resume.css";
 function ResumeImg() {
     return (
         <div className= "animate__heartBeat">
-            <img src={myResume} alt="Dana Weijers Resume" />
+            <img src={myResume} className="img-fluid" alt="Dana Weijers Resume" />
         </div>
     )
 }

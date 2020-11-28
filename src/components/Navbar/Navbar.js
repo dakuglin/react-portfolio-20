@@ -5,7 +5,7 @@ import "./navbar.css";
 function Navbar() {
     return (
       <>
-    <nav className="navbar navbar-expand-lg navbar-light bg-light">
+    <nav className="navbar navbar-expand-lg navbar-light bg-light sticky">
       <div>
         <ul className="navbar-nav"  id="right-align">
             <li className="nav-item">

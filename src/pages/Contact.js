@@ -14,7 +14,6 @@ const style = {
         fontSize: "55px",
     },
     contact: {
-        color:"green",
         fontFamily: 'Open Sans Condensed, sans-serif',
         fontSize: "40px",
         fontWeight: "bold",

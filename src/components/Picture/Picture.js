@@ -6,7 +6,7 @@ import "./picture.css";
 function Picture() {
     return (
         <div>
-            <img id="me" src={me} alt="Dana Weijers" />
+            <img id="me" src={me} className="img-fluid" alt="Dana Weijers" />
         </div>
     )
 }

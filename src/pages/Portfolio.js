@@ -11,7 +11,7 @@ class Portfolio extends Component {
       projects
     };
     render() {
-        return(
+        return (
       
             <Background backgroundImage="https://images.unsplash.com/photo-1507646871303-331b8f659227?ixlib=rb-1.2.1&auto=format&fit=crop&w=1525&q=80.jpg">
 
@@ -20,13 +20,16 @@ class Portfolio extends Component {
                     id={project.id}
                     key={project.id}
                     name={project.name}
+                    description={project.description}
+                    github={project.github}
+                    deployed={project.deployed}
+                    // image={project.image}
                  
                 />
                 ))}
                 
             </Background>
-        
-      
+
         )
     }
 }
