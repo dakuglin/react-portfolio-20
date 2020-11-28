@@ -1,5 +1,8 @@
+.row {
+    margin-left:650px;
+}
 .card {
-    background: #fff;
+    background: whitesmoke;
     border-radius: 2px;
     height: 225px;
     margin: 1rem;
@@ -7,4 +10,25 @@
     width: 525px;
     box-shadow: 0 3px 6px #999, 0 3px 6px #999;
     text-align: left;
+}
+
+
+.btn.btn-primary {
+    background-color: #41B3A3;
+    font-family: 'Open Sans Condensed, sans-serif';  
+    border: none;
+    color: whitesmoke;
+    padding: 8px 18px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;
+}
+
+::placeholder {
+    font-family: 'Open Sans Condensed, sans-serif';    
 }
