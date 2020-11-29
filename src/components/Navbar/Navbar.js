@@ -5,7 +5,7 @@ import "./navbar.css";
 function Navbar() {
     return (
       <>
-    <nav className="navbar navbar-expand-lg navbar-light bg-light sticky">
+    <nav className="navbar navbar-expand-lg navbar-light bg-light">
       <div>
         <ul className="navbar-nav"  id="right-align">
             <li className="nav-item">
@@ -47,10 +47,10 @@ function Navbar() {
 
         <ul className="navbar-nav">
           <li className="nav-item active">
-            <a className="nav-link" href="https://www.linkedin.com/in/danakuglin" target="_blank"><span>linkedin</span></a>
+            <a className="nav-link" href="https://www.linkedin.com/in/danakuglin" target="_blank" rel="noreferrer"><span>linkedin</span></a>
           </li>
           <li className="nav-item active">
-            <a className="nav-link" href="https://github.com/dakuglin" target="_blank"><span>github</span></a>
+            <a className="nav-link" href="https://github.com/dakuglin" target="_blank" rel="noreferrer"><span>github</span></a>
           </li>
           <li className="nav-item">
           <Link

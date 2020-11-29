@@ -23,7 +23,7 @@ class Portfolio extends Component {
                     description={project.description}
                     github={project.github}
                     deployed={project.deployed}
-                    // image={project.image}
+                    image={project.image}
                  
                 />
                 ))}

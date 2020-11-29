@@ -4,18 +4,19 @@ import "./project.css"
 function Project(props) {
     return (
         <>
-    
-        <div class="row">
-            <div class="card  col-xs-12 col-md-4">
-                {/* <img class="card-img-top" src="asset/images/dog friendly denver.JPG" alt="Dog Friendly Denver Homepage"/>  */}
-                <div class="card-body">
-                    <h5 class="card-title">{props.name}</h5>
-                    <p class="card-text">{props.description}</p>
-                    <a href={props.github} target="_blank" class="btn btn-primary">github</a> 
-                    <a href={props.deploy} target="_blank" class="btn btn-primary">deploy</a>  
+        <div style={{display: 'flex', flexDirection: 'row'}} className="container">
+            <div className="row" style={{flex: 1}}>
+                <div className="card col-3">
+                    <img className="card-img-top" src={props.images} alt={props.name}/> 
+                    <div className="card-body">
+                        <h5 className="card-title">{props.name}</h5>
+                        <p className="card-text">{props.description}</p>
+                        <a href={props.github} target="_blank" rel="noreferrer" className="btn btn-primary">github</a> 
+                        <a href={props.deploy} target="_blank" rel="noreferrer" className="btn btn-primary">deploy</a>  
+                    </div>
                 </div>
+                
             </div>
-            
         </div>
         </>
     )
