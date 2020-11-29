@@ -21,7 +21,7 @@
     "github": "https://github.com/dakuglin/burger13",
     "deployed": "https://polar-everglades-95084.herokuapp.com/",
     "description": "Who doesn't love a good burger? This application takes in a perfectly crafted burger order and allows you to devour the burger you just created, yummy!",
-    "image": "../images/burger.png"
+    "image": "https://github.com/dakuglin/react-portfolio-20/blob/main/images/burger.png?raw=true"
   },
   {
     "id": 4,
