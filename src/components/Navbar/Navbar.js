@@ -10,9 +10,9 @@ function Navbar() {
         <ul className="navbar-nav"  id="right-align">
             <li className="nav-item">
               <Link
-                to="/"
+                to="/react-portfolio-20"
                 className={
-                  window.location.pathname === "/" || window.location.pathname === "/aboutme"
+                  window.location.pathname === "/react-portfolio-20" || window.location.pathname === "/aboutme"
                     ? "nav-link active"
                     : "nav-link"
                 }
@@ -40,7 +40,7 @@ function Navbar() {
       </div>
 
       <ul className="navbar-nav">
-      <Link className="navbar-brand" to="/">  
+      <Link className="navbar-brand" to="/react-portfolio-20">  
          <h2>Dana Weijers</h2>
       </Link> 
         </ul>
