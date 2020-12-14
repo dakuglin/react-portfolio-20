@@ -5,7 +5,8 @@
     "github": "https://github.com/dakuglin/DogFriendlyDenver",
     "deployed": "https://queek1313.github.io/DogFriendlyDenver/",
     "description": "Have you ever wondered what kind of animal you would be and why? Do adorable pictures of cats and dogs melt your heart? If you answered yes to these questions visit Dog Friendly Denver! The only fun and interactive site helping to link adoptable pets in the Denver area to their forever home!",
-    "image": "https://github.com/dakuglin/react-portfolio-20/blob/main/images/dogFriendlyDenver.png?raw=true"
+    "image": "https://github.com/dakuglin/react-portfolio-20/blob/main/images/dogFriendlyDenver.png?raw=true",
+    "footer": " JavaScript | APIs | HTML | CSS"
   },
   {
     "id": 2,
@@ -13,7 +14,8 @@
     "github": "https://github.com/ryanwit/hotel_motel",
     "deployed": "https://hotelmotel.herokuapp.com/",
     "description": "Are you tired of using overcomplicated and expensive property management systems for your small hotel or motel? Hotel Motel aims to solve these problems with its simple, easy to use interface. Quickly view guest information and hotel occupancy on one screen.",
-    "image": "https://github.com/dakuglin/react-portfolio-20/blob/main/images/hotelmotel.png?raw=true"
+    "image": "https://github.com/dakuglin/react-portfolio-20/blob/main/images/hotelmotel.png?raw=true",
+    "footer": "JavaScript | Express | MySQL | Sequelize | Handlebars"
   },
   {
     "id": 3,
@@ -21,7 +23,8 @@
     "github": "https://github.com/dakuglin/burger13",
     "deployed": "https://polar-everglades-95084.herokuapp.com/",
     "description": "Who doesn't love a good burger? This application takes in a perfectly crafted burger order and allows you to devour the burger you just created, yummy!",
-    "image": "https://github.com/dakuglin/react-portfolio-20/blob/main/images/burger.png?raw=true"
+    "image": "https://github.com/dakuglin/react-portfolio-20/blob/main/images/burger.png?raw=true",
+    "footer": "JavaScript | Express | MySQL | ORM"
   },
   {
     "id": 4,
@@ -29,7 +32,8 @@
     "github": "https://github.com/dakuglin/password-generator-03",
     "deployed": "https://dakuglin.github.io/password-generator-03/",
     "description": "Don't sweat trying to come up with a password that contains enough valid numbers, letters, and special characters! Tell this app exactly what you need in a password and let it do the hard work for you.",
-    "image": "https://github.com/dakuglin/react-portfolio-20/blob/main/images/password.png?raw=true"
+    "image": "https://github.com/dakuglin/react-portfolio-20/blob/main/images/password.png?raw=true",
+    "footer": "JavaScript | HTML | CSS"
   },
   {
     "id": 5,
@@ -37,7 +41,8 @@
     "github": "https://github.com/dakuglin/codequiz04",
     "deployed": "https://dakuglin.github.io/codequiz04/",
     "description": "Want to test your coding skills? Hop on over to this interactive code quiz to test your JavaScript knowledge, better study up!",
-    "image": "https://github.com/dakuglin/react-portfolio-20/blob/main/images/codequiz.png?raw=true"
+    "image": "https://github.com/dakuglin/react-portfolio-20/blob/main/images/codequiz.png?raw=true",
+    "footer": " JavaScript | JQuery | HTML | CSS"
   },
   {
     "id": 6,
@@ -45,8 +50,8 @@
     "github": "https://github.com/dakuglin/work-day-scheduler05",
     "deployed": "https://dakuglin.github.io/work-day-scheduler05/",
     "description": "Ever felt overwhelmed keeping up with your busy work schedule? No need to stress! This easy to use day planner will allow you to stay organized and on top of your workload.",
-    "image": "https://github.com/dakuglin/react-portfolio-20/blob/main/images/scheduler.png?raw=true"
+    "image": "https://github.com/dakuglin/react-portfolio-20/blob/main/images/scheduler.png?raw=true",
+    "footer": "JavaScript | HTML | CSS | Local Storage"
   }
-  
-  
+   
 ]

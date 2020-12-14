@@ -24,6 +24,7 @@ class Portfolio extends Component {
                     github={project.github}
                     deployed={project.deployed}
                     image={project.image}
+                    footer={project.footer}
                  
                 />
                 ))}
